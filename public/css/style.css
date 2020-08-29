@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(255, 43, 214, 0.2);
+    color: rgba(0, 166, 255, 1);
+    font-family: arial;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    color: #000000;
+    border-top:1px solid rgba(0, 166, 255, 1);
+    padding: 16px 0;
+    margin-top: 16px;
+}
+header{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+header a{
+    font-size:20px;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 16px;
+}
+.foto{
+    height:270px;
+}
+p{
+    color:black;
+}
+button{
+    border:2px solid;
+    color: rgba(0, 166, 255, 1);
+    background-color: rgba(255, 43, 214, 0.01);
+    padding: 8px;
+    cursor: pointer;
+}
+input{
+    border: 2px solid;
+    color: rgba(0, 166, 255, 1);
+    padding: 8px;
+}
